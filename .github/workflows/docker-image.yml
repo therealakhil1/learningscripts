@@ -20,7 +20,7 @@ jobs:
       name: login to docker hub
       with:
         username: akhilspalli
-        password: dckr_pat_KJvKEjPScuN1VD7YK7Li0GyzGpM
+        password: dckr_pat_KJvKEjPScuN1VD7YK7Li0GyzGpM <----- This is now deleted, if you want to revive this create a PAT and put in in secrets
     - uses: docker/build-push-action@v4
       name: push the docker image to dockerhub
       with:
